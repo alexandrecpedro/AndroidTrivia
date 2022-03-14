@@ -18,8 +18,8 @@ apply plugin: 'com.android.application'
 
 apply plugin: 'kotlin-android'
 
+//Add safeargs plugin to app Gradle file
 apply plugin: 'kotlin-kapt'
-
 apply plugin: 'androidx.navigation.safeargs'
 
 android {
